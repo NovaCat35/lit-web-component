@@ -13,6 +13,9 @@ Tech Stack 🔭
 2) npm login
 3) npm publish
 
+> To update an NPM module that you published, change the version in your package.json or use npm version <new-version>. After changing the version number in your package.json, you can run npm publish to publish the new version to NPM.
+
+
 
 ## Manage Version Control & Changelogs (Changesets)
 > This project uses Changesets to manage version control and changelogs. Changesets is a CLI tool that helps us keep track of changes and generate a `CHANGELOG.md` file.

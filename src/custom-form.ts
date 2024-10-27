@@ -151,3 +151,5 @@ export class CustomForm extends LitElement {
     };
   }
 }
+
+export default CustomForm;

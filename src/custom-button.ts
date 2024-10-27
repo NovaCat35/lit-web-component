@@ -49,3 +49,5 @@ export class CustomButton extends LitElement {
     alert(`You press the ${this.text} button.`);
   }
 }
+
+export default CustomButton;
