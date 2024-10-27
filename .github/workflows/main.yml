@@ -19,7 +19,6 @@ jobs:
       - name: Install dependencies
         run: |
           pnpm install
-          pnpm update --frozen-lockfile
 
       - name: Run lint and build
         run: |
