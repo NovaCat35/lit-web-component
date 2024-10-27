@@ -27,3 +27,5 @@ STEPS:
 
 ## Configuring Workflow (CI)
 > [Reference video](https://www.youtube.com/watch?v=eh89VE3Mk5g) start @ 1:58
+
+1) See the .github/workflows -> files
