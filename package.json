@@ -1,0 +1,26 @@
+{
+  "name": "@novacat35/lit-web-components",
+  "license": "MIT",
+  "author": "NovaCat35",
+  "description": "A collection of web components built with Lit.dev",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.9"
+  }
+}
