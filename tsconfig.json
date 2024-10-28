@@ -1,5 +1,4 @@
 {
-	"extends": "../../tsconfig.base.json",
 	"compilerOptions": {
 		"outDir": "dist",
 		"target": "ES2022",
@@ -12,7 +11,6 @@
 		"checkJs": true,
 		"noImplicitAny": true,
 		"strictNullChecks": true,
-		"types": ["node"],
 
 		/* Bundler mode */
 		"moduleResolution": "Node",

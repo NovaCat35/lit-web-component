@@ -50,4 +50,8 @@ export class CustomButton extends LitElement {
   }
 }
 
-export default CustomButton;
+declare global {
+  interface HTMLElementTagNameMap {
+    "custom-button": CustomButton;
+  }
+}

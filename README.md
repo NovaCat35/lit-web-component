@@ -10,7 +10,7 @@ Tech Stack 🔭
 
 ## Instructions for using this NPM package
 > Run the following to get started with using my package
-`npm i @novacat35/lit-web-components`
+`npm i @novacat35/lit-web-components@latest`
 
 ---
 

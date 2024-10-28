@@ -152,4 +152,8 @@ export class CustomForm extends LitElement {
   }
 }
 
-export default CustomForm;
+declare global {
+  interface HTMLElementTagNameMap {
+    "custom-form": CustomForm;
+  }
+}
