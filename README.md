@@ -3,15 +3,25 @@
 The purpose of this project is two parts. First, it is a short demo on using Lit.dev to produce different web components. Second, it is to be published on NPM so that product team can install it and use these components. 🚀
 
 Tech Stack 🔭
+- Vite
 - Typescript
 - Lit.dev
 - Storybook
 
+## Instructions for using this NPM package
+> Run the following to get started with using my package
+`npm i @novacat35/lit-web-components`
+
+---
+
+> [!NOTE]
+> Below is notes for developer creating a new project to upload to NPM as a package.
+
 ## Publishing to NPM
 > Note the package.json changes & then run the following: 
-1) npm run build 
-2) npm login
-3) npm publish
+1) `npm run build` 
+2) `npm login`
+3) `npm publish` (or `npm publish --access=public`)
 
 > To update an NPM module that you published, change the version in your package.json or use npm version <new-version>. After changing the version number in your package.json, you can run npm publish to publish the new version to NPM.
 
@@ -22,11 +32,11 @@ Tech Stack 🔭
 > [Reference video](https://www.youtube.com/watch?v=eh89VE3Mk5g) start @ 1:25
 STEPS: 
 > You can install pnpm with: `npm install -g pnpm`
-1) pnpm add -D @changesets/cli
-2) pnpm changeset init 
+1) `pnpm add -D @changesets/cli`
+2) `pnpm changeset init `
 
 > Every time you make a change, you can add a changeset:
-3) pnpm changeset
+3) ` pnpm changeset`
 
 ## Configuring Workflow (CI)
 > [Reference video](https://www.youtube.com/watch?v=eh89VE3Mk5g) start @ 1:58
