@@ -1,9 +1,9 @@
 # Lit Web Components
 
-The purpose of this project is two parts. First, it is a short demo on using Lit.dev to produce different web components. Second, it is to be published on NPM so that the product team can install it and use these components. 🚀
+The purpose of this project is two parts. First, it is a short demo of using Lit.dev to produce different web components. Second, it must be published on NPM so that the product team can install and use these components. 🚀
 
 NPM Package link: https://www.npmjs.com/package/@novacat35/lit-web-components
-Playground repo (to showcase use of this package): https://github.com/NovaCat35/my-component-playground
+Playground repo (to showcase the use of this package): https://github.com/NovaCat35/my-component-playground
 
 ## Tech Stack 🌐
 - Vite
@@ -18,7 +18,7 @@ Playground repo (to showcase use of this package): https://github.com/NovaCat35/
 ---
 
 > [!NOTE]
-> Below is notes for developer creating a new project to upload to NPM as a package.
+> Below are notes for the developer creating a new project to upload to NPM as a package.
 
 ## Publishing to NPM
 > Note the package.json changes & then run the following: 
@@ -29,6 +29,8 @@ Playground repo (to showcase use of this package): https://github.com/NovaCat35/
 > To update an NPM module that you published, change the version in your package.json or use npm version <new-version>. After changing the version number in your package.json, you can run npm publish to publish the new version to NPM.
 
 
+> [!WARNING]
+> The configuration steps below are incomplete and while it does not affect the main codebase, it simply doesn't work at the moment. 
 
 ## Manage Version Control & Changelogs (Changesets)
 > This project uses Changesets to manage version control and changelogs. Changesets is a CLI tool that helps us keep track of changes and generate a `CHANGELOG.md` file.
