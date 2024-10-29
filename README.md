@@ -1,9 +1,10 @@
 # Lit Web Components
 
-The purpose of this project is two parts. First, it is a short demo of using Lit.dev to produce different web components. Second, it must be published on NPM so that the product team can install and use these components. 🚀
+The purpose of this project is two parts. First, it is a short demo of using Lit.dev to produce different web components. Second, it must be published on NPM so that any product team can install and use these components. 🚀
 
-NPM Package link: https://www.npmjs.com/package/@novacat35/lit-web-components
-Playground repo (to showcase the use of this package): https://github.com/NovaCat35/my-component-playground
+👉 [NPM Package link](https://www.npmjs.com/package/@novacat35/lit-web-components)
+
+👉 [Playground repo (to showcase the use of this package)](https://github.com/NovaCat35/my-component-playground)
 
 ## Tech Stack 🌐
 - Vite
@@ -12,22 +13,31 @@ Playground repo (to showcase the use of this package): https://github.com/NovaCa
 - Storybook
 
 ## Instructions for using this NPM package 📙
-> Run the following to get started with using my package
+Run the following to get started with using my package. To see how this would work in a product team, please see the playground repo link provided above.
+
 `npm i @novacat35/lit-web-components@latest`
+
+---
 
 ---
 
 > [!NOTE]
 > Below are notes for the developer creating a new project to upload to NPM as a package.
 
-## Publishing to NPM
-> Note the package.json changes & then run the following: 
+## Publishing to NPM 🛠️
+Note the package.json changes & then run the following: 
 1) `npm run build` 
 2) `npm login`
 3) `npm publish` (or `npm publish --access=public`)
 
 > To update an NPM module that you published, change the version in your package.json or use npm version <new-version>. After changing the version number in your package.json, you can run npm publish to publish the new version to NPM.
 
+## Folder Structure
+
+
+---
+
+---
 
 > [!WARNING]
 > The configuration steps below are incomplete and while it does not affect the main codebase, it simply doesn't work at the moment. 
