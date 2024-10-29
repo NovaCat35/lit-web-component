@@ -1,5 +1,5 @@
 import {LitElement, html, css} from 'lit';
-import {customElement, state, property, query} from 'lit/decorators.js';
+import {customElement, property, query} from 'lit/decorators.js';
 
 /**
  * GOAL: Utlizing web component for great functionality (this is my magna opus...of this demo)
@@ -15,7 +15,7 @@ export class CustomForm extends LitElement {
   @property()
   showCompanionMessage: boolean = false;
 
-  @state()
+  @property()
   private user = { fname: '', lname: '', companion: '' };
 
   static styles = css`
