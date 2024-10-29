@@ -2,13 +2,15 @@
 
 The purpose of this project is two parts. First, it is a short demo on using Lit.dev to produce different web components. Second, it is to be published on NPM so that the product team can install it and use these components. 🚀
 
+NPM Package link: https://www.npmjs.com/package/@novacat35/lit-web-components
+
 ## Tech Stack 🌐
 - Vite
 - Typescript
 - Lit.dev
 - Storybook
 
-## Instructions for using this NPM package
+## Instructions for using this NPM package 📙
 > Run the following to get started with using my package
 `npm i @novacat35/lit-web-components@latest`
 
